@@ -14,8 +14,8 @@ def xor_decrpt(ciphertext, keytext):
     return decrypted_text
 
 
-ciphertext_file_path="C:/Users/VINCENT/OneDrive/桌面/Advanced Network Security/1/forstudents/a/ciphertext.bin"
-key_file_path="C:/Users/VINCENT/OneDrive/桌面/Advanced Network Security/1/forstudents/a/key.bin"
+ciphertext_file_path="./ciphertext.bin"
+key_file_path="./key.bin"
 
 with open(ciphertext_file_path, 'rb') as file:
     ciphertext=file.read()
